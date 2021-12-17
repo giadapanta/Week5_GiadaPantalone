@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="Stile.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="JavaS.js"></script>
+</head>
+<body onload="Loggato();Tastodisabilitato()" >
+    <nav>
+        <ul id="barra">
+            <li class="bar"><a class="b" href="Home.html">Home</a></li>
+            <li class="bar"><a class="b" href="SchedaTecnica.html">Scheda Tecnica</a></li>
+            <li class="bar"><a class="b" href="News.html">News</a></li>
+        </ul>
+    </nav>
+    <br/>
+    <br/>
+    
+    <form id="sub">
+        <p id="news"> Vuoi iscriverti alla nostra newsletter? </p>
+        <label>Email</label>
+        <input id="email" type="email" placeholder="Inserisci il tuo indirizzo email" oninput="AbilitaTasto()" required /> <br/>
+        <input id="subscribe" type="button" value="Subscribe" onclick="salva();CambiaTasti()" />
+        <input id="unsubscribe" type="button" value="Unsubscribe" onclick="cancella()"/>
+    </form>
+
+
+
+    <br /> <br /> <br /> <br />
+    <footer>
+        <br/>
+        <p> Torna alla:<a href="Home.html"> <input type="button" value="Home" /></a>    </p>
+        <br />
+        <p>&copy; Giada Pantalone</p>
+        <div>
+            Mi puoi trovare su: &nbsp;
+            <a target="_blank" href="https://it-it.facebook.com/" class="fa fa-facebook"></a>
+            <a target="_blank" href="https://twitter.com/?lang=it" class="fa fa-twitter"></a>
+            <a target="_blank" href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>

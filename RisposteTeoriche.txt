@@ -1,0 +1,7 @@
+﻿1 -> C , C
+2 -> .color, li
+3 -> #welcome, .color{
+	background-color:darkblue;
+	}
+4 -> <a href="https://www.avanade.com/it-it"> Avanade </a>
+5 -> C

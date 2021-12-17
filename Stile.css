@@ -1,0 +1,154 @@
+﻿
+body {
+    background-image: url('Immagini/sfondo.jpg');
+    background-size: cover;
+    
+}
+
+#title{
+    color:white;
+    font-family: 'Lucida Handwriting';
+    font-size:52px;
+    font-weight:bold;
+}
+/*BARRA DI NAVIGAZIONE*/
+#barra{
+    list-style-type:none;
+    margin-left:-10px;
+    margin-right:-10px;
+    padding-left:10px;
+    overflow:hidden;
+    background-color:white;
+    opacity:0.7;
+}
+.bar, .b {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Lucida Handwriting';
+}
+    .b:link{
+    color:#af58eb;
+    }
+    .b:visited {
+        color: #af58eb;
+    }
+    .b:hover{
+       background-color:lightgray;
+       color:#07095b;
+    }
+
+/*INFORMAZIONI PAGINA SCHEDA*/
+#info {
+    list-style-type: none;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: white;
+    opacity: 0.7;
+}
+.i {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Lucida Handwriting';
+}
+
+/*TRAMA E IMMAGINI*/
+#foto1{
+    width:450px;
+    height:600px;
+    float:left;
+    flex-direction:column;
+    
+}
+#trama{
+    
+    background-color: #e66d46;
+    font-family: 'Lucida Handwriting';
+    color: white;
+     display:flex;
+    width:900px;
+    height:700px; 
+    float:left;
+   flex-direction:column;
+     
+}
+#foto2 {
+    width:520px;
+    height:330px;
+   
+    float:left;
+   
+}
+footer{
+    background-color:white;
+    opacity:0.7;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+    /* Add a hover effect if you want */
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/*Instagram*/
+.fa-instagram {
+    background: #e81ebf;
+    color: white;
+}
+#space{
+    overflow:hidden;
+    height:800px;
+}
+/*SUBSCRIBE*/
+#sub{
+    background-color:lightgray;
+    
+}
+#news {
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Lucida Handwriting';
+
+}
+#subscribe{
+    display:block;
+}
+#unsubscribe{
+    display:none;
+}
+.par::first-letter{
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+}
+
